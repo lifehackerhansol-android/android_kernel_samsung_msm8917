@@ -1862,7 +1862,6 @@ int __udp4_lib_rcv(struct sk_buff *skb, struct udp_table *udptable,
 				saddr, daddr, udptable);
 
 	sk = __udp4_lib_lookup_skb(skb, uh->source, uh->dest, udptable);
-
 	if (sk != NULL) {
 		int ret;
 		/* START_OF_KNOX_NPA */
