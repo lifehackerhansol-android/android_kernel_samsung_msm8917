@@ -245,6 +245,6 @@ $(obj)/../../%.dtb: $(src)/%.dts FORCE
 
 dtbs: $(addprefix $(obj)/../../,$(DTB_LIST))
 
-clean-files := *.dtb *.reverse.dts
+clean-files := *.dtb
 
 
